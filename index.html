@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Web Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Interactive Web Page</h1>
+    </header>
+
+    <section id="interactive-buttons">
+        <h2>Interactive Buttons</h2>
+        <button id="colorBtn">Change Background Color</button>
+        <button id="toggleTextBtn">Toggle Text Visibility</button>
+        <p id="toggleText">This text can be hidden or shown!</p>
+    </section>
+
+    <section id="custom-form">
+        <h2>Custom Form Validation</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name">
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" placeholder="Enter your email">
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter password">
+
+            <button type="submit">Submit</button>
+            <p id="formMessage" class="message"></p>
+        </form>
+    </section>
+
+    <section id="slider-section">
+        <h2>Custom Slider</h2>
+        <input type="range" id="slider" min="0" max="100" value="50">
+        <p>Value: <span id="sliderValue">50</span></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
